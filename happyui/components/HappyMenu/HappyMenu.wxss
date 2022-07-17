@@ -1,0 +1,43 @@
+.ha-menu{
+  background-color: white;
+  border-radius: 24rpx;
+  padding: 5rpx 30rpx;
+}
+.item-warp{
+  font-weight: normal;
+  background-color: white;
+  padding: 0;
+  width: 100% !important;
+}
+.item{
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+}
+.title-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 20rpx;
+}
+.title{
+  font-size: 28rpx;
+  color: var(--ha1Text);
+}
+.subtitle{
+  font-size: 25rpx;
+  color: var(--ha2Text);
+}
+.arrow{
+  height: 25rpx;
+  width: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hr{
+  height: 1rpx;
+  background-color: rgba(192,196,204,0.3);
+  width: 100%;
+}

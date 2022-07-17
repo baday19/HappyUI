@@ -1,0 +1,9 @@
+<view class="ha-user">
+  <view class="avatar">
+    <image src="/res/logo200w.png"></image>
+  </view>
+  <view class="info">
+    <view class="nickname">{{nickname}}</view>
+    <view class="welcome">{{welcome}}</view>
+  </view>
+</view>

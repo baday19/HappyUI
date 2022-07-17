@@ -1,0 +1,28 @@
+page{
+  /* --haTheme: #0181fe; */
+  /* --haTheme: #409EFF; */
+  --haTheme: #FFE60F;
+  --haSuccess: #67C23a;
+  --haWarn: #E6a23c;
+  --haDanger: #f56c6c;
+
+  --ha0Text: #303133;
+  --ha1Text: #606266;
+  --ha2Text: #909399;
+  --ha3Text: #c0c4cc;
+  font-size: 28rpx;
+  color: var(--ha1Text);
+  background-color: #f1f1f1;
+}
+view{
+  box-sizing: border-box;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.ha-common-card{
+  background-color: white;
+  border-radius: 24rpx;
+  padding: 25rpx;
+}

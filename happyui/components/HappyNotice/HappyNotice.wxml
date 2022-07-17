@@ -1,0 +1,8 @@
+<view class="happy-notice" style="{{style}}">
+  <view class="icon">
+      <image src="../../res/notice.png"></image>
+  </view>
+  <view class="content">
+    <view class="text"><slot></slot></view>
+  </view>
+</view>

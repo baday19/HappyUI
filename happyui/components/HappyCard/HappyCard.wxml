@@ -1,0 +1,18 @@
+<view wx:if="{{type!='top'}}" class="ha-card {{type=='left'?'ha-card__1':''}}" style="{{style}}">
+  <view class="content {{type=='left'?'content__1':''}}">
+    <view class="title">{{title}}</view>
+    <view class="subtitle">{{subTitle}}</view>
+  </view>
+  <view class="pic">
+    <image src="{{src}}" mode="aspectFill"></image>
+  </view>
+</view>
+<view wx:else class="ha-card__2" style="{{style}}">
+  <view class="pic__2">
+    <image mode="aspectFill" src="{{src}}"></image>
+  </view>
+  <view class="content__2">
+    <view class="title">{{title}}</view>
+    <view class="subtitle" wx:if="{{subTitle}}">{{subTitle}}</view>
+  </view>
+</view>

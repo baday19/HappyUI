@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "ha-toolbar": "/happyui/components/HappyToolbar/HappyToolbar",
+    "ha-user": "/happyui/components/HappyUser/HappyUser",
+    "ha-menu": "/happyui/components/HappyMenu/HappyMenu"
+  }
+}

@@ -1,0 +1,10 @@
+<view style="height: 265rpx; background-color: var(--haTheme); position: absolute; top: 0; width: 100%; z-index: -1;"></view>
+<view style="margin: 0 25rpx 30rpx;">
+  <ha-notice style="margin-bottom: 5rpx;">
+    请完善用户信息后使用
+  </ha-notice>
+  <ha-search placeholder="输入你想要的东西" btnText="搜索"></ha-search>
+  <ha-toolbar style="margin-top:30rpx;" data="{{list0}}"></ha-toolbar>
+  <ha-toolbar style="margin-top:30rpx;" title="为你推荐" subTitle="发现精彩" data="{{list1}}"></ha-toolbar>
+  <ha-card wx:for="1234" title="75颗ttc金粉+5颗box水母 送罐子 包邮 不接刀" subTitle="2022-5-20 价格:160元" src="/res/liff.jpg" style="margin-top: 25rpx;" type="top"></ha-card>
+</view>

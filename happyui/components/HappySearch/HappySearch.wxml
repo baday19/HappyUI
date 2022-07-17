@@ -1,0 +1,12 @@
+<view class="happy-search">
+  <view class="blur" wx:if="{{type==0}}" bindtap="tap">
+    <view class="search-icon">
+      <image src="../../res/search.png"></image>
+    </view>
+    <view class="search-text">{{placeholder}}</view>
+  </view>
+  <view class="focus" wx:else>
+    <input bindinput="input" placeholder-style="color:var(--ha2Text);" class="search-input" type="text" placeholder="{{placeholder}}"/>
+    <button bindtap="tapBtn" class="search-btn">{{btnText}}</button>
+  </view>
+</view>

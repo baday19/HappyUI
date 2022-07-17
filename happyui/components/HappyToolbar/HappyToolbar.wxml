@@ -1,0 +1,20 @@
+<view class="ha-toolbar" style="{{style}}">
+  <view class="header" wx:if="{{title!=''}}">
+    <view class="main-tit">{{title}}</view>
+    <view class="sub-tit">{{subTitle}}</view>
+  </view>
+  <view class="main{{ul?'__ul':''}}">
+    <button class="main-item{{ul?'__ul':''}}" wx:for="{{data}}" wx:key="index" catchtap="selectItem" data-index="{{index}}" open-type="{{item.openType}}" style="{{data.length>4&&!ul?'width:25%;flex:0 1 auto;':''}}">
+      <view class="item-icon{{ul?'__ul':''}}" wx:if="{{item.icon||ul}}">
+        <image wx:if="{{!ul}}" src="{{item.icon}}"></image>
+      </view>
+      <view class="item-text{{ul?'__ul':''}}">{{item.text}}</view>
+    </button>
+  </view>
+  <!-- <view wx:else class="main__ul">
+    <button class="main-item__ul" wx:for="{{data}}" wx:key="index" catchtap="selectItem" data-index="{{index}}" open-type="{{item.openType}}">
+      <view class="item-icon__ul"></view>
+      <view class="item-text__ul">{{item.text}}</view>
+    </button>
+  </view> -->
+</view>

@@ -1,0 +1,39 @@
+.happy-button{
+  border-radius: 750rpx;
+  font-weight: normal;
+  /* display: inline-block; */
+  font-size: 28rpx;
+  padding: 21rpx 35rpx;
+
+  background-color: white;
+  border: 1rpx solid var(--haTheme);
+  color: var(--haTheme);
+}
+.big{
+  font-size: 34rpx;
+  padding: 25rpx 50rpx;
+}
+.small{
+  font-size: 24rpx;
+  padding: 13rpx 30rpx;
+}
+
+.primary{
+  background-color: var(--haTheme);
+  color: white;
+}
+.success{
+  background-color: var(--haSuccess);
+  color: white;
+  border-color: var(--haSuccess);
+}
+.warning{
+  background-color: var(--haWarn);
+  color: white;
+  border-color: var(--haWarn);
+}
+.danger{
+  background-color: var(--haDanger);
+  color: white;
+  border-color: var(--haDanger);
+}

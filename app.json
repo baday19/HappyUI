@@ -1,0 +1,41 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/intro/intro"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#FFE60F",
+        "navigationBarTitleText": "快乐闲置",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+      "ha-toolbar": "/happyui/components/HappyToolbar/HappyToolbar",
+      "ha-user": "/happyui/components/HappyUser/HappyUser",
+      "ha-menu": "/happyui/components/HappyMenu/HappyMenu",
+      "ha-card": "/happyui/components/HappyCard/HappyCard",
+      "ha-container": "/happyui/components/HappyContainer/HappyContainer",
+      "ha-button": "/happyui/components/HappyButton/HappyButton",
+      "ha-notice": "/happyui/components/HappyNotice/HappyNotice",
+      "ha-search": "/happyui/components/HappySearch/HappySearch"
+    },
+    "tabBar": {
+      "selectedColor": "#FFE60F",
+      "color": "#606266",
+      "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "/res/xianzhi0.png",
+        "selectedIconPath": "/res/xianzhi.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/res/xianzhi0.png",
+        "selectedIconPath": "/res/xianzhi.png",
+        "text": "我的"
+      }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

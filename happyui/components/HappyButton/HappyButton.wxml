@@ -1,0 +1,3 @@
+<button class="happy-button {{size}} {{type}}" style="width: fit-content; {{style}}">
+  <slot></slot>
+</button>

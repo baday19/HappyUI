@@ -1,0 +1,49 @@
+.happy-search{
+  background-color: white;
+  height: 80rpx;
+  border-radius: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rpx 12rpx;
+  font-size: 28rpx;
+}
+.blur{
+  display: flex;
+  align-items: center;
+}
+.focus{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.search-input{
+  flex: 1;
+  width: 100%;
+  display: block;
+  margin: 0 15rpx 0 30rpx;
+}
+.search-btn{
+  padding: 0 30rpx;
+  width: fit-content !important;
+  font-weight: normal;
+  font-size: 26rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100rpx;
+  background-color: var(--haTheme);
+  color: white;
+}
+.search-icon{
+  height: 30rpx;
+  width: 30rpx;
+  margin-right: 15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-text{
+  color: var(--ha2Text);
+}

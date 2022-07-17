@@ -1,0 +1,9 @@
+<view style="height: 200rpx; background-color: var(--haTheme); position: absolute; top: 0; width: 100%; z-index: -1;"></view>
+<view style="margin: 0rpx 25rpx 30rpx;">
+  <ha-user></ha-user>
+  <ha-toolbar style="margin-top:40rpx" data="{{list0}}" bindhatap="fun"></ha-toolbar>
+  <ha-toolbar style="margin-top:30rpx;" title="快乐的卖" data="{{list1}}"></ha-toolbar>
+  <ha-toolbar style="margin-top:30rpx;" title="快乐的买" data="{{list2}}"></ha-toolbar>
+  <ha-toolbar style="margin-top:30rpx;" data="{{list3}}"></ha-toolbar>
+  <ha-menu style="margin-top:30rpx;" data="{{menuList}}"></ha-menu>
+</view>

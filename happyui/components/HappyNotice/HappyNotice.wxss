@@ -1,0 +1,43 @@
+.happy-notice {
+  /* background-color: white; */
+  border-radius: 20rpx;
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+}
+
+.icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 15rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+}
+
+.text {
+  display: block;
+  width: auto;
+  white-space: nowrap;
+  /* transform: translateX(-100%); */
+  animation: roll 15s linear infinite;
+  padding-left: 105%;
+  padding-right: 120%;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}

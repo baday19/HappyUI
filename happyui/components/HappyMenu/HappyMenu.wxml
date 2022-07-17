@@ -1,0 +1,14 @@
+<view class="ha-menu" style="{{style}}">
+  <button class="item-warp" wx:for="{{data}}" wx:key="index" catchtap="selectItem" data-index="{{index}}" open-type="{{item.openType}}">
+    <view class="hr" wx:if="{{index!=0}}"></view>
+    <view class="item">
+      <view class="title-container">
+        <view class="title">{{item.title}}</view>
+        <view class="subtitle">{{item.subtitle}}</view>
+      </view>
+      <view class="arrow">
+        <image src="../../res/arrow.png"></image>
+      </view>
+    </view>
+  </button>
+</view>

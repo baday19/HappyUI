@@ -1,0 +1,68 @@
+.ha-toolbar{
+  width: 100%;
+  border-radius: 24rpx;
+  background-color: white;
+  padding: 1rpx 10rpx;
+  box-sizing: border-box;
+}
+.header{
+  margin: 20rpx 25rpx 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.main-tit{
+  font-size: 32rpx;
+  font-weight: bold;
+  color: var(--ha0Text);
+  margin-right: 15rpx;
+}
+.sub-tit{
+  color: var(--ha2Text);
+  font-size: 28rpx;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .main__ul{
+  display: flex;
+  flex-direction: column;
+} */
+.main-item{
+  margin: 0 !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: normal;
+  padding: 26rpx 0rpx;
+  color: var(--ha1Text);
+  background-color: transparent;
+}
+.main-item__ul{
+  margin: 26rpx 0;
+  box-sizing: border-box;
+  padding: 0 25rpx;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 28rpx;
+  width: 100% !important;
+  font-weight: normal;
+  border-radius: 0;
+  color: var(--ha1Text);
+}
+.item-icon{
+  height: 50rpx;
+  width: 50rpx;
+  margin: 10rpx 0 24rpx;
+}
+.item-icon__ul{
+  width: 10rpx;
+  height: 10rpx;
+  background-color: var(--haTheme);
+  border-radius: 50%;
+  margin-right: 15rpx;
+}
